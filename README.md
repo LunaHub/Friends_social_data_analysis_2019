@@ -10,8 +10,8 @@ The general idea of the project is to investigate..
 
 ## Content of Website
 This Website includes
-* [A Network Analysis of the..](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis/)
-* [A text analysis of the.. ](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis/)
+* [A Network Analysis of the..](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
+* [A text analysis of the.. ](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
 
 ## Data
 The data used for this project can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/data) or bt scrabbing this [link](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI).
