@@ -1,1 +1,2 @@
-
+The folder holds the data used for the project.
+The data is scrabbed from https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI.
