@@ -19,4 +19,6 @@ The data used for this project can be downloaded from the [repository](https://g
 Some more about the data..
 
 ## Explainer notebook
-Further more an explanatory notebook can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen here (put link here)
+Further more an explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen here 
+* Scrabbing code (put link here)
+* Data Processing (put link here)
