@@ -1,5 +1,5 @@
 # Project description
-This Website is the second part of the final project for the DTU course Social graphs and interactions (02805). 
+[This Website](https://lunahub.github.io/Friends_social_data_analysis_2019/) is the second part of the final project for the DTU course Social graphs and interactions (02805). 
 
 The website contains our analysis, it tells the story about the data that we're interested in. The website is not technical, but rather aiming at using visualization and explanation to get our insights across to a non-scientific reader.
 
