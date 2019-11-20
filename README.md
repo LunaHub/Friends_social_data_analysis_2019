@@ -14,7 +14,7 @@ The general idea of the project is to investigate the American TV sitcom [Friend
 
 The text analysis will look at the content of the spoken lines in the seasons. The analysis will reveal how the language evolved during the ten year periode the sitcom was made. Sentiment analysis and wordscloud will be used as tools for this. The wordcloud will also be compared to the storyline of seasons to investigate if the analysis captures the main highlights of the seasons.
 
-The results of both the network and text analysis can be compared to unofficial rakings of each seasons to explore if either the cast ore the storyline (spoken lines) can explain this.
+The results of both the network and text analysis can be compared to unofficial rakings of each seasons to explore if either the cast or the storyline (spoken lines) can explain this.
 
 If this is not enough: 
 * Network analysis of the Wikipedia pages for the main characters of the sitcom (both the acthor and the sitcom character)
