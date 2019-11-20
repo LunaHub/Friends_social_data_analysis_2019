@@ -8,6 +8,10 @@ The website contains our analysis, it tells the story about the data that we're 
 ### Idea
 The general idea of the project is to investigate..
 
+<p align="center"> 
+<img src="figures/friends.jpeg" width="500">
+</p>
+
 ## Content of Website
 This Website includes
 * [A Network Analysis of the..](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis/)
