@@ -4,13 +4,15 @@
 The website contains our analysis, it tells the story about the data that we're interested in. The website is not technical, but rather aiming at using visualization and explanation to get our insights across to a non-scientific reader.
 
 ## Idea
-The general idea of the project is to investigate the American TV sitcom [Friends](https://en.wikipedia.org/wiki/Friends) in terms of both network analysis and text analysis. The network analysis will focus on comparing the networks between the characters of the show over the 10 seasons. The analysis will be held against the story line of the seasons to see if the network analysis can confirm the evolution of the relationship between the chacters. The analysis will also explore how many secondary characters are used in each seasons. 
+The general idea of the project is to investigate the American TV sitcom [Friends](https://en.wikipedia.org/wiki/Friends) in terms of both network analysis and text analysis. The network analysis will focus on comparing the networks between the characters of the show over the 10 seasons. The analysis will be held against our knowledge about the story line of the seasons to see if the network analysis can confirm the evolution of the relationship (marriage, disputes, flirts etc.) between the chacters. The analysis will also explore how many secondary characters are used in each seasons such as Janice Hosenstein, "The Ugly Naked Guy" and Carol Willick. 
 
 <p align="center"> 
 <img src="figures/friends.jpeg" width="500">
 </p>
 
-The text analysis will look at the content of the spoken lines in the seasons. The analysis will reveal how the language evolved during the ten year periode the sitcom was made. Sentiment analysis and wordscloud will be used as tools for this. The wordcloud will also be compared to the storyline of seasons to investigate if the analysis captures the main highlights of the seasons.
+The text analysis will look at the script content of the spoken lines in the seasons. The analysis will reveal how the language evolved during the ten year periode the sitcom was made. Sentiment analysis and wordscloud will be used as tools for this. The wordcloud will also be compared to the storyline of seasons to investigate if the analysis captures the main highlights of the seasons.
+
+It will also look at the issues that are being tackled at the different locations (café, a given apartment, tbeir workplace) to see if the settings can indicate the story's development in general terms.
 
 The results of both the network and text analysis can be compared to unofficial rakings of each seasons to explore if either the cast or the storyline (spoken lines) can explain this.
 
