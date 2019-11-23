@@ -4,7 +4,7 @@
 The website contains our analysis, it tells the story about the data that we're interested in. The website is not technical, but rather aiming at using visualization and explanation to get our insights across to a non-scientific reader.
 
 ## Idea
-The general idea of the project is to investigate the American TV sitcom [Friends](https://en.wikipedia.org/wiki/Friends) in terms of both network analysis and text analysis. The network analysis will focus on comparing the networks between the characters of the show over the 10 seasons. The analysis will be held against our knowledge about the story line of the seasons to see if the network analysis can confirm the evolution of the relationship (marriage, disputes, flirts etc.) between the chacters. The analysis will also explore how many secondary characters are used in each seasons such as Janice Hosenstein, "The Ugly Naked Guy" and Carol Willick. 
+The general idea of the project is to investigate the American TV sitcom [Friends](https://en.wikipedia.org/wiki/Friends) in terms of both network analysis and text analysis. The network analysis will focus on comparing the networks between the characters of the show over the 10 seasons. The analysis will be held against our knowledge about the story line of the seasons to see if the network analysis can confirm the evolution of the relationship (marriage, disputes, flirts etc.) between the characters. The analysis will also explore how many secondary characters are used in each seasons such as Janice Hosenstein, "The Ugly Naked Guy" and Carol Willick. 
 
 <p align="center"> 
 <img src="figures/friends.jpeg" width="500">
@@ -28,7 +28,7 @@ This Website includes
 # Data
 The data used for this project can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/data) or by scrabbing this [link](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI).
 
-The data is first scrabbed from the website and then saves in sperate .csv files for each episode. The files contains information on what is being said, who is saying it and what scene.
+The data is first scrabbed from the website and then saved in sperate .csv files for each episode. The files contains information on what is being said, who is saying it and what scene.
 
 # Explainer notebook
 Further more an explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen here 
