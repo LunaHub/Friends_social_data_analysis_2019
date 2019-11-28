@@ -22,7 +22,8 @@ If this is not enough:
 
 # Content of Website
 This Website includes
-* [A Network Analysis of the..](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
+* [A Network Analysis of the main characters in the show](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)
+* [A Network Analysis of all characters in the show](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
 * [A text analysis of the.. ](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
 
 # Data
