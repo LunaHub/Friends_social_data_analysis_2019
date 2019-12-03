@@ -21,5 +21,6 @@ The network is based on the characters appearance in each scene. So if two main 
 
 The mean of the weight is around ~250 for each season.
 From the network we found that the overall strongest edge is between Chandler and Joey in season 5, with a weight of 333. This means that the 2 characters have appeared together in same scene 333 times in season 5!
+\n
 
 If you have seen the show you know that the two characters Ross and Rachel have a very complicated relationship through the show. 
