@@ -11,9 +11,8 @@ The network is based on the characters appearance in each scene. So if two main 
 
 <p align="center"> 
 <img src="figures/Network_Main_Char_Season_1.png" width="400"/>
-</p>
-
 <img src="figures/Network_Main_Char_Season_2.png" width="400"/>
+</p>
 
 <img src="https://github.com/LunaHub/Friends_social_data_analysis_2019/blob/master/figures/Network_Main_Char_Season_3.png" width="400"/> <img src="https://github.com/LunaHub/Friends_social_data_analysis_2019/blob/master/figures/Network_Main_Char_Season_4.png" width="400"/>
 
