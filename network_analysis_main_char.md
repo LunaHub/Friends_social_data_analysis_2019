@@ -7,7 +7,7 @@ The 6 main characters in the show Rachel, Joey, Chandler, Ross, Monica and Phoeb
 ![Alt Text](https://media.giphy.com/media/IazUww3PfsXepuuTUu/source.gif)
 
 By using network analysis we can investergate how the relationship between the characters devolop for each season. 
-The network is based on the characters appearance in each scene. So if two main characters appears in the same scene a edge between them is created. This results in a weighted undirected-network for each season, as shown below
+The network is based on the characters appearance in each scene. So if two main characters appears in the same scene, an edge between them is created. This results in a weighted undirected-network for each season, as shown below
 
 Insert picure(s)
 
