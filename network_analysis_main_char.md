@@ -6,6 +6,7 @@ The 6 main characters in the show Rachel, Joey, Chandler, Ross, Monica and Phoeb
 
 <p align="center">
 <img src="https://media.giphy.com/media/IazUww3PfsXepuuTUu/source.gif"/>
+ ![Alt Text](https://media.giphy.com/media/IazUww3PfsXepuuTUu/source.gif)
 </p>
 
 By using network analysis we can investergate how the relationship between the characters devolop for each season. 
