@@ -1,11 +1,11 @@
 # Network Analysis: 
-## The-one-with-the-main-characters V.1
+## The-one-with-the-main-characters V.1.2
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
 
 The 6 main characters in the show Rachel, Joey, Chandler, Ross, Monica and Phoebe have a very dynamic relationship. The diffrent relationships are varying from roommates, friends, partners or even enemies. 
 
 <p align="center">
-![Alt Text](https://media.giphy.com/media/IazUww3PfsXepuuTUu/source.gif)
+ <img src="https://media.giphy.com/media/IazUww3PfsXepuuTUu/source.gif" width="300"/>
 </p>
 
 By using network analysis we can investergate how the relationship between the characters devolop for each season. 
