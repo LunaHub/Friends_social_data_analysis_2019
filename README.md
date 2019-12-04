@@ -33,5 +33,5 @@ The data is first scraped from the website and then saved in sperate .csv files 
 
 # Explainer notebook
 Further more an explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen here 
-* Scrabbing code (put link here)
+* Scrapping code (put link here)
 * Data Processing (put link here)
