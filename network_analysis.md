@@ -6,13 +6,13 @@
 The following show the complete network of charaters in each season...
 
 <p align="center"> 
-<img src="figures/All_seasons_network.png" width="500" alt="All seasons">
+<img src="figures/All_seasons_network.png" width="500" id="main_pic">
 </p>
 
 <p align="center"> 
   <img src='figures/S1network.png' 
-       onmouseover="this.src='figures/S2network.png';" 
-       onmouseout="this.src='figures/S1network.png';" 
+       onmouseover="main_pic.src='figures/S2network.png';" 
+       onmouseout="main_pic.src='figures/All_seasons_network.png';" 
        width="80" />
   <img src="figures/S2network.png" width="112">
   <img src="figures/S3network.png" width="112">
