@@ -5,10 +5,11 @@ Your are probably already fimiliar with the 6 main characters of friends (otherw
 This section will explore the features of the network of the complete cast of all seasons along wiht the networks of each season to investigate the evolution over seasons. 
 
 <p align="center"> 
-<img src="figures/brand_new_info.GIF" width="400">
+<img src="figures/brand_new_info.gif" width="400">
 </p>
 
-The following show the complete network of all charaters in entire show of F.R.I.E.N.D.S. Hover on the images below to show network of each season.
+The following show the complete network of all charaters in entire show of F.R.I.E.N.D.S. 
+Hover on the images below to show network of each season.
 
 <p align="center"> 
 <img src="figures/All_seasons_network.png" width="560" id="main_pic">
@@ -56,5 +57,13 @@ The following show the complete network of all charaters in entire show of F.R.I
        onmouseout="main_pic.src='figures/All_seasons_network.png';" 
        width="112" />
 </p>
+
+As you might notice the network does not give alot of information, so lets dig in the features of the network.
+
+## Network of the complete cast
+This section will exlore the entire cast of the show for all seasons. 
+
+## Networks of each season
+This section will explore how the network evolve over the seasons.
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
