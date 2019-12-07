@@ -1,6 +1,13 @@
 # The-one-with-all-the-characters
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
 
+Your are probably already fimiliar with the 6 main characters of friends (otherwise go [here](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)). However there are a number of secondary characters that appear quit alot in the show. But how often do they appear? And who are the "main" secondary characters of the show?
+This section will explore the features of the network of the complete cast of all seasons along wiht the networks of each season to investigate the evolution over seasons. 
+
+<p align="center"> 
+<img src="figures/brand_new_info.GIF" width="400">
+</p>
+
 The following show the complete network of all charaters in entire show of F.R.I.E.N.D.S. Hover on the images below to show network of each season.
 
 <p align="center"> 
