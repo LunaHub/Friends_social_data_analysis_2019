@@ -6,7 +6,7 @@
 The following show the complete network of charaters in each season...
 
 <p align="center"> 
-<img src="figures/S1network.png" width="500">
+<img src="figures/All_seasons_network.png" width="500">
 </p>
 
 <p align="center"> 
