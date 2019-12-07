@@ -10,7 +10,10 @@ The following show the complete network of charaters in each season...
 </p>
 
 <p align="center"> 
-  <img src="figures/S1network.png" width="80"> 
+  <img src='figures/S1network.png' 
+       onmouseover="this.src='figures/S2network.png';" 
+       onmouseout="this.src='figures/S1network.png';" 
+       width="80" />
   <img src="figures/S2network.png" width="80">
   <img src="figures/S3network.png" width="80">
   <img src="figures/S4network.png" width="80">
