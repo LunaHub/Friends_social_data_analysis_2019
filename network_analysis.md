@@ -86,15 +86,15 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 
 <p align="center"> 
 	<img src="figures/main_characters_degree_big_network.png" 
-	width="400">
+	width="500">
 </p>
 <p align="center"> 
 	<img src="figures/bi_characters_degree_big_network.png" 
-	width="400">
+	width="500">
 </p>
 <p align="center"> 
 	<img src="figures/All_seasons_network_interactive.png" 
-	width="400">
+	width="500">
 </p>
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
