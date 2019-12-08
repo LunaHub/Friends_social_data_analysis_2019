@@ -61,12 +61,40 @@ Hover on the images below to show network of each season.
        width="112" />
 </p>
 
+How are nodes and link made...
+
 As you might notice the network does not give alot of information, so lets dig in the features of the network.
 
-## Network of the complete cast
-This section will exlore the entire cast of the show for all seasons. 
+## Network statistics
+The complete network of all casted characters of the show includes 285 nodes(charatcers) and 2683 links. The number of characters and links between these over each season is seen in the figures below. The degree distribution is also seen..
+<p align="center"> 
+	<img src="figures/total_number_of_nodes.png" 
+	width="400">
+</p>
 
-## Networks of each season
-This section will explore how the network evolve over the seasons.
+<p align="center"> 
+	<img src="figures/total_number_of_edges.png" 
+	width="400">
+</p>
+
+<p align="center"> 
+	<img src="figures/Degree_dist.png" 
+	width="400">
+</p>
+
+## Networks of secondary characters
+
+<p align="center"> 
+	<img src="figures/main_characters_degree_big_network.png" 
+	width="400">
+</p>
+<p align="center"> 
+	<img src="figures/bi_characters_degree_big_network.png" 
+	width="400">
+</p>
+<p align="center"> 
+	<img src="figures/All_seasons_network_interactive.png" 
+	width="400">
+</p>
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
