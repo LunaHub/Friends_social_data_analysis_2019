@@ -101,10 +101,8 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 
 ### Networks of secondary characters
 <p align="center"> 
-	<img src="figures/All_seasons_network_interactive.png" 
+	{% include All_seasons_network_interactive.html %} 
 	width="560">
 </p>
-
-{% include All_seasons_network_interactive.html %} 
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
