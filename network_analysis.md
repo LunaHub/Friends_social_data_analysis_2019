@@ -11,12 +11,12 @@ This section will explore the features of the network of the complete cast of al
 The following show the complete network of all charaters in entire show of F.R.I.E.N.D.S. 
 Hover on the images below to show network of each season.
 
+![](https://raw.githubusercontent.com/LunaHub/Friends_social_data_analysis_2019/master/figures/All_seasons_network_interactive.html)
+
 <p align="center"> 
 	<iframe src="https://raw.githubusercontent.com/LunaHub/Friends_social_data_analysis_2019/master/figures/All_seasons_network_interactive.html" 
 	width="560" id="main_pic">
 </p>
-
-<img width="560" height="315" src="https://www.youtube.com/embed/dHHmUF9gs70" frameborder="0" allowfullscreen></img>
 
 <p align="center"> 
 	<img src="figures/All_seasons_network_no_labels.png" 
