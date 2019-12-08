@@ -82,7 +82,7 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 	width="400">
 </p>
 
-## Networks of secondary characters
+## Secondary characters
 
 <p align="center"> 
 	<img src="figures/main_characters_degree_big_network.png" 
@@ -93,13 +93,15 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 	<img src="figures/bi_characters_degree_big_network.png" 
 	width="560">
 </p>
-<p align="center"> 
-	<img src="figures/All_seasons_network_interactive.png" 
-	width="560">
-</p>
 
 <p align="center"> 
 	<img src="figures/Number_of_char_appearing_in_each_season.png" 
+	width="560">
+</p>
+
+### Networks of secondary characters
+<p align="center"> 
+	<img src="figures/All_seasons_network_interactive.png" 
 	width="560">
 </p>
 
