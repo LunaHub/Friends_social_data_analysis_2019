@@ -12,7 +12,10 @@ The following show the complete network of all charaters in entire show of F.R.I
 Hover on the images below to show network of each season.
 
 <p align="center"> 
-<img src="figures/All_seasons_network.png" width="560" id="main_pic">
+	<img src="figures/All_seasons_network_no_labels.png" 
+	onmouseover="this.src='figures/All_seasons_network.png';" 
+	onmouseout="this.src='figures/All_seasons_network_no_labels.png';"
+	width="560" id="main_pic">
 </p>
 
 <p align="center"> 
