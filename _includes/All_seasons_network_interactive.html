@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "steelblue", "id": "phoebe", "label": "phoebe", "shape": "dot", "size": 34.0, "title": "phoebe"}, {"color": "steelblue", "id": "monica", "label": "monica", "shape": "dot", "size": 34.5, "title": "monica"}, {"color": "steelblue", "id": "chandler", "label": "chandler", "shape": "dot", "size": 33.5, "title": "chandler"}, {"color": "steelblue", "id": "joey", "label": "joey", "shape": "dot", "size": 33.75, "title": "joey"}, {"color": "steelblue", "id": "rachel", "label": "rachel", "shape": "dot", "size": 34.5, "title": "rachel"}, {"color": "steelblue", "id": "ross", "label": "ross", "shape": "dot", "size": 33.0, "title": "ross"}, {"color": "lightblue", "id": "jack", "label": "jack", "shape": "dot", "size": 7.75, "title": "jack"}, {"color": "lightblue", "id": "janice", "label": "janice", "shape": "dot", "size": 14.75, "title": "janice"}, {"color": "lightblue", "id": "estelle", "label": "estelle", "shape": "dot", "size": 5.75, "title": "estelle"}, {"color": "lightblue", "id": "ben", "label": "ben", "shape": "dot", "size": 14.25, "title": "ben"}, {"color": "lightblue", "id": "david", "label": "david", "shape": "dot", "size": 5.75, "title": "david"}, {"color": "lightblue", "id": "gunther", "label": "gunther", "shape": "dot", "size": 19.25, "title": "gunther"}, {"color": "lightblue", "id": "lauren", "label": "lauren", "shape": "dot", "size": 8.5, "title": "lauren"}, {"color": "lightblue", "id": "richard", "label": "richard", "shape": "dot", "size": 14.5, "title": "richard"}, {"color": "lightblue", "id": "ursula", "label": "ursula", "shape": "dot", "size": 8.25, "title": "ursula"}, {"color": "lightblue", "id": "waiter", "label": "waiter", "shape": "dot", "size": 10.25, "title": "waiter"}, {"color": "lightblue", "id": "bob", "label": "bob", "shape": "dot", "size": 6.0, "title": "bob"}, {"color": "lightblue", "id": "carol", "label": "carol", "shape": "dot", "size": 16.25, "title": "carol"}, {"color": "lightblue", "id": "cookie", "label": "cookie", "shape": "dot", "size": 5.0, "title": "cookie"}, {"color": "lightblue", "id": "tony", "label": "tony", "shape": "dot", "size": 4.5, "title": "tony"}, {"color": "lightblue", "id": "susan", "label": "susan", "shape": "dot", "size": 11.75, "title": "susan"}]);
+        edges = new vis.DataSet([{"color": "gray", "from": "phoebe", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "jack", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "david", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "ursula", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "waiter", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "tony", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "tony", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "jack", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "waiter", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "david", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "ursula", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "jack", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "tony", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "tony", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "tony", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "tony", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "tony", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "waiter", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "david", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "waiter", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "waiter", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "david", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "david", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "bob", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "cookie", "weight": 1.0}, {"color": "gray", "from": "bob", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "bob", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "bob", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "bob", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "bob", "to": "david", "weight": 1.0}, {"color": "gray", "from": "cookie", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "cookie", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "david", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "david", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "david", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "carol", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "carol", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "carol", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "estelle", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "lauren", "weight": 1.0}, {"color": "gray", "from": "lauren", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "estelle", "to": "joey", "weight": 1.0}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "hierarchicalRepulsion": {
+            "centralGravity": 0.0,
+            "damping": 0.09,
+            "nodeDistance": 120,
+            "springConstant": 0.01,
+            "springLength": 140
+        },
+        "solver": "hierarchicalRepulsion",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
