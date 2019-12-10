@@ -104,6 +104,10 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 	{% include All_seasons_degree_network_interactive.html %} 
 </p>
 
+<p align="center"> 
+	{% include All_seasons_frequent_char_network_interactive.html %} 
+</p>
+
 ## Communitites
 <p align="center"> 
 	<img src="figures/All_seasons_network_communities.png" 
