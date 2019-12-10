@@ -15,16 +15,16 @@ The network is based on the characters appearance in each scene. So if two main 
 <img src="figures/main_char_network/Network_Main_Char_Season_1.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_2.png" width="300"/>
 </p>
 <p align="center">
-<img src="figures/main_char_network/Network_Main_Char_Season_3.png" width="250"/> <img src="figures/main_char_network/Network_Main_Char_Season_4.png" width="250"/>
+<img src="figures/main_char_network/Network_Main_Char_Season_3.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_4.png" width="300"/>
 </p>
 <p align="center">
-<img src="figures/main_char_network/Network_Main_Char_Season_5.png" width="250"/> <img src="figures/main_char_network/Network_Main_Char_Season_6.png" width="250"/>
+<img src="figures/main_char_network/Network_Main_Char_Season_5.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_6.png" width="300"/>
 </p>
 <p align="center">
-<img src="figures/main_char_network/Network_Main_Char_Season_7.png" width="250"/> <img src="figures/main_char_network/Network_Main_Char_Season_8.png" width="250"/>
+<img src="figures/main_char_network/Network_Main_Char_Season_7.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_8.png" width="300"/>
 </p>
 <p align="center">
-<img src="figures/main_char_network/Network_Main_Char_Season_9.png" width="250"/> <img src="figures/main_char_network/Network_Main_Char_Season_10.png" width="250"/>
+<img src="figures/main_char_network/Network_Main_Char_Season_9.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_10.png" width="300"/>
 </p>
 
 The following plot shows the weight of each relationship of the 6 main characters. Because the number of scenes is varying the weight is calculated relative to the number of scenes in each season. 
