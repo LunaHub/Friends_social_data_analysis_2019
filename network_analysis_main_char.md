@@ -1,5 +1,5 @@
 # Network Analysis: 
-## The-one-with-the-main-characters V.1.3
+## The-one-with-the-main-characters V.2.0
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
 
 The 6 main characters in the show Rachel, Joey, Chandler, Ross, Monica and Phoebe have a very dynamic relationship. The diffrent relationships are varying from roommates, friends, partners or even enemies sometimes.
@@ -56,3 +56,4 @@ By comparing the two graphs it shows, that eventho they spend alot of times togh
 
 The last three seasons their weight is very fluctuating. This makes sense because in season 8 Ross and Rachel gets a baby, in season 9 they are broken up, but in season 10 they end up toghether.
 
+[Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
