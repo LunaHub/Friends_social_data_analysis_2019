@@ -45,5 +45,11 @@ If you have seen the show you know that the two characters Ross and Rachel have 
 <img src="figures/main_char_network/ross_rachel.png" width="600"/> <img 
 </p>
 
+We can compare this to the number of scenes where Ross and Rachel are the only one present.
+
+<p align="center">
+<img src="figures/main_char_network/ross_rach_alone.png" width="600"/> <img 
+</p>
+
 The last three seasons their weight is very fluctuating. This makes sense because in season 8 Ross and Rachel gets a baby, in season 9 they are broken up, but in season 10 they end up toghether.
 
