@@ -1,0 +1,114 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 50%;
+            height: 500px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "lightblue", "id": "emma", "label": "emma", "shape": "dot", "size": 4.875, "title": "emma"}, {"color": "steelblue", "id": "monica", "label": "monica", "shape": "dot", "size": 32.75, "title": "monica"}, {"color": "steelblue", "id": "phoebe", "label": "phoebe", "shape": "dot", "size": 32.25, "title": "phoebe"}, {"color": "steelblue", "id": "chandler", "label": "chandler", "shape": "dot", "size": 31.875, "title": "chandler"}, {"color": "steelblue", "id": "joey", "label": "joey", "shape": "dot", "size": 32.125, "title": "joey"}, {"color": "steelblue", "id": "ross", "label": "ross", "shape": "dot", "size": 31.625, "title": "ross"}, {"color": "steelblue", "id": "rachel", "label": "rachel", "shape": "dot", "size": 32.875, "title": "rachel"}, {"color": "lightblue", "id": "ben", "label": "ben", "shape": "dot", "size": 7.125, "title": "ben"}, {"color": "lightblue", "id": "gunther", "label": "gunther", "shape": "dot", "size": 9.375, "title": "gunther"}, {"color": "lightblue", "id": "janice", "label": "janice", "shape": "dot", "size": 7.25, "title": "janice"}, {"color": "lightblue", "id": "mike", "label": "mike", "shape": "dot", "size": 7.875, "title": "mike"}, {"color": "lightblue", "id": "richard", "label": "richard", "shape": "dot", "size": 7.25, "title": "richard"}, {"color": "lightblue", "id": "susan", "label": "susan", "shape": "dot", "size": 5.75, "title": "susan"}, {"color": "lightblue", "id": "carol", "label": "carol", "shape": "dot", "size": 8.0, "title": "carol"}, {"color": "lightblue", "id": "emily", "label": "emily", "shape": "dot", "size": 5.125, "title": "emily"}, {"color": "lightblue", "id": "frank", "label": "frank", "shape": "dot", "size": 4.5, "title": "frank"}]);
+        edges = new vis.DataSet([{"color": "gray", "from": "emma", "to": "monica", "weight": 1.0000000246321776}, {"color": "gray", "from": "emma", "to": "phoebe", "weight": 1.0000000235625377}, {"color": "gray", "from": "emma", "to": "chandler", "weight": 1.000000024912769}, {"color": "gray", "from": "emma", "to": "joey", "weight": 1.0000000239588345}, {"color": "gray", "from": "emma", "to": "ross", "weight": 1.000000024384485}, {"color": "gray", "from": "emma", "to": "rachel", "weight": 1.0000000245919218}, {"color": "gray", "from": "emma", "to": "ben", "weight": 1.000000002839131}, {"color": "gray", "from": "emma", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "emma", "to": "janice", "weight": 1.0000000098217792}, {"color": "gray", "from": "emma", "to": "mike", "weight": 1.0000000167015934}, {"color": "gray", "from": "emma", "to": "richard", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "phoebe", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "joey", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "mike", "weight": 1.0000000122705195}, {"color": "gray", "from": "richard", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "emily", "weight": 1.0000000085173926}, {"color": "gray", "from": "richard", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "richard", "to": "frank", "weight": 1.0000000101781776}, {"color": "gray", "from": "joey", "to": "mike", "weight": 1.0000000254632189}, {"color": "gray", "from": "joey", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "joey", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "joey", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "joey", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "joey", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "joey", "to": "frank", "weight": 1.0000000223098366}, {"color": "gray", "from": "joey", "to": "emily", "weight": 1.0000000243309417}, {"color": "gray", "from": "phoebe", "to": "mike", "weight": 1.000000026215455}, {"color": "gray", "from": "phoebe", "to": "frank", "weight": 1.0000000219981335}, {"color": "gray", "from": "phoebe", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "phoebe", "to": "emily", "weight": 1.000000024405708}, {"color": "gray", "from": "mike", "to": "monica", "weight": 1.000000026119074}, {"color": "gray", "from": "mike", "to": "chandler", "weight": 1.0000000259192294}, {"color": "gray", "from": "mike", "to": "ross", "weight": 1.0000000260417223}, {"color": "gray", "from": "mike", "to": "rachel", "weight": 1.000000026119074}, {"color": "gray", "from": "mike", "to": "ben", "weight": 1.000000014443973}, {"color": "gray", "from": "mike", "to": "gunther", "weight": 1.0000000130173086}, {"color": "gray", "from": "mike", "to": "janice", "weight": 1.0000000130173086}, {"color": "gray", "from": "mike", "to": "susan", "weight": 1.0}, {"color": "gray", "from": "mike", "to": "carol", "weight": 1.000000004499916}, {"color": "gray", "from": "susan", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "rachel", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "susan", "to": "emily", "weight": 1.0000000065922576}, {"color": "gray", "from": "rachel", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "gunther", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "rachel", "to": "frank", "weight": 1.000000022274373}, {"color": "gray", "from": "rachel", "to": "emily", "weight": 1.0000000237654771}, {"color": "gray", "from": "gunther", "to": "chandler", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "ross", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "monica", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "gunther", "to": "emily", "weight": 1.000000008999832}, {"color": "gray", "from": "gunther", "to": "frank", "weight": 1.000000002839131}, {"color": "gray", "from": "ross", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "ross", "to": "frank", "weight": 1.0000000223449956}, {"color": "gray", "from": "ross", "to": "emily", "weight": 1.000000024405708}, {"color": "gray", "from": "chandler", "to": "frank", "weight": 1.0000000220922987}, {"color": "gray", "from": "chandler", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "chandler", "to": "emily", "weight": 1.0000000254221353}, {"color": "gray", "from": "monica", "to": "frank", "weight": 1.0000000225994874}, {"color": "gray", "from": "monica", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "ben", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "monica", "to": "emily", "weight": 1.0000000247893575}, {"color": "gray", "from": "frank", "to": "janice", "weight": 1.0000000128429845}, {"color": "gray", "from": "frank", "to": "emily", "weight": 1.0000000147903199}, {"color": "gray", "from": "emily", "to": "janice", "weight": 1.000000008999832}, {"color": "gray", "from": "emily", "to": "carol", "weight": 1.0000000098217792}, {"color": "gray", "from": "emily", "to": "ben", "weight": 1.000000002839131}, {"color": "gray", "from": "ben", "to": "carol", "weight": 1.0}, {"color": "gray", "from": "ben", "to": "janice", "weight": 1.0}, {"color": "gray", "from": "janice", "to": "carol", "weight": 1.0}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -150,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
