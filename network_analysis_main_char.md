@@ -15,16 +15,16 @@ The network is based on the characters appearance in each scene. So if two main 
 <img src="figures/Network_Main_Char_Season_1.png" width="250"/> <img src="figures/Network_Main_Char_Season_2.png" width="250"/>
 </p>
 <p align="center">
-<img src="figures/Network_Main_Char_Season_3.png" width="200"/> <img src="figures/Network_Main_Char_Season_4.png" width="200"/>
+<img src="figures/Network_Main_Char_Season_3.png" width="250"/> <img src="figures/Network_Main_Char_Season_4.png" width="250"/>
 </p>
 <p align="center">
-<img src="figures/Network_Main_Char_Season_5.png" width="350"/> <img src="figures/Network_Main_Char_Season_6.png" width="350"/>
+<img src="figures/Network_Main_Char_Season_5.png" width="250"/> <img src="figures/Network_Main_Char_Season_6.png" width="250"/>
 </p>
 <p align="center">
-<img src="figures/Network_Main_Char_Season_7.png" width="350"/> <img src="figures/Network_Main_Char_Season_8.png" width="350"/>
+<img src="figures/Network_Main_Char_Season_7.png" width="250"/> <img src="figures/Network_Main_Char_Season_8.png" width="250"/>
 </p>
 <p align="center">
-<img src="figures/Network_Main_Char_Season_9.png" width="350"/> <img src="figures/Network_Main_Char_Season_10.png" width="350"/>
+<img src="figures/Network_Main_Char_Season_9.png" width="250"/> <img src="figures/Network_Main_Char_Season_10.png" width="250"/>
 </p>
 
 The mean of the weight is around ~250 for each season.
