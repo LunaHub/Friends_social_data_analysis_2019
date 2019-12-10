@@ -52,7 +52,7 @@ We can compare this to the number of scenes where Ross and Rachel are the only o
 <img src="figures/main_char_network/ross_rach_alone.png" width="600"/>
 </p>
 
-By comparing the two graphs it shows, that eventho they spend alot of times togheter in the begining of the show, they are not nececarily(staves?) spending time apart from the rest of the group. This could be a indication that they dont have a romantic relationship in the begning of the show.
+By comparing the two graphs it shows, that eventho they spend alot of times togheter in the begining of the show, they are not nececarily(staves?) spending time apart from the rest of the group. This could be an indication that they dont have a romantic relationship in the begning of the show.
 
 The last three seasons their weight is very fluctuating. This makes sense because in season 8 Ross and Rachel gets a baby, in season 9 they are broken up, but in season 10 they end up toghether.
 
