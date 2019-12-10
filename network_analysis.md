@@ -100,9 +100,9 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 </p>
 
 ### Networks of secondary characters
-This is the network of the most frequenct appearing characters
+This is the network of the most frequenct appearing characters. Ændret højden
 
-<p align="center" style="width: 500px;">
+<p align="center" style="hight: 50px;">
 	{% include All_seasons_frequent_char_network_interactive.html %} 
 </p>
 
@@ -113,6 +113,7 @@ This is the network of the most frequenct appearing characters
 	onmouseout="this.src='figures/All_seasons_network_communities_no_labels.png';"
 	width="560">
 </p>
+
 Some text here...
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
@@ -126,7 +127,7 @@ Some text here...
 </p>
 
 ## Something
-<p align="center" style="width: 500px;">
+<p align="center" style="width: 50px;">
 	{% include All_seasons_frequent_char_network_interactive.html %} 
 </p>
 
