@@ -113,6 +113,7 @@ This is the network of the most frequenct appearing characters
 	onmouseout="this.src='figures/All_seasons_network_communities_no_labels.png';"
 	width="560">
 </p>
+
 Some text here...
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
