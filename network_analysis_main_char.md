@@ -25,10 +25,6 @@ The network is based on the characters appearance in each scene. If two main cha
 <p align="center">
 <img src="figures/main_char_network/Network_Main_Char_Season_9.png" width="300"/> <img src="figures/main_char_network/Network_Main_Char_Season_10.png" width="300"/>
 </p>
-
-<p align="center">
-<img src="figures/main_char_network/All_main_char.png" width="600"/> <img 
-</p>
  
 <p align="center">
 <img src="figures/main_char_network/main_network_all.png" width="600"/> 
@@ -36,8 +32,10 @@ The network is based on the characters appearance in each scene. If two main cha
 
 The following plot shows the weight of each relationship of the 6 main characters. Because the number of scenes is varying the weight is calculated relative to the number of scenes in each season. 
 
+<p align="center">
+<img src="figures/main_char_network/All_main_char.png" width="600"/> <img 
+</p>
 
- 
 The highest relative weight is Joey and Chandler in season 5 at 0.54! This means that Joey and Chandler appears together in 54 % of all the scenes in season 5!
 
 <p align="center">
