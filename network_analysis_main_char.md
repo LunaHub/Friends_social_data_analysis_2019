@@ -12,10 +12,10 @@ By using network analysis we can investergate how the relationship between the c
 The network is based on the characters appearance in each scene. So if two main characters appears in the same scene, an edge between them is created. The result of this is a weighted undirected-network for each season, as shown below
 
 <p align="center">
-<img src="figures/Network_Main_Char_Season_1.png" width="350"/> <img src="figures/Network_Main_Char_Season_2.png" width="350"/>
+<img src="figures/Network_Main_Char_Season_1.png" width="250"/> <img src="figures/Network_Main_Char_Season_2.png" width="250"/>
 </p>
 <p align="center">
-<img src="figures/Network_Main_Char_Season_3.png" width="350"/> <img src="figures/Network_Main_Char_Season_4.png" width="350"/>
+<img src="figures/Network_Main_Char_Season_3.png" width="200"/> <img src="figures/Network_Main_Char_Season_4.png" width="200"/>
 </p>
 <p align="center">
 <img src="figures/Network_Main_Char_Season_5.png" width="350"/> <img src="figures/Network_Main_Char_Season_6.png" width="350"/>
