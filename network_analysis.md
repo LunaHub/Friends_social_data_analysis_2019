@@ -108,7 +108,9 @@ This is the network of the most frequenct appearing characters
 
 ## Communitites
 <p align="center"> 
-	<img src="figures/All_seasons_network_communities.png" 
+	<img src="figures/All_seasons_network_communities_no_labels.png" 
+	onmouseover="this.src='figures/All_seasons_network_communities.png';" 
+	onmouseout="this.src='figures/All_seasons_network_communities_no_labels.png';"
 	width="560">
 </p>
 Some text here...
@@ -123,5 +125,9 @@ Some text here...
 	width="600">
 </p>
 
+## Something
+<p align="center" style="width: 500px;">
+	{% include All_seasons_frequent_char_network_interactive.html %} 
+</p>
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
