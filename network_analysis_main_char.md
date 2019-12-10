@@ -36,7 +36,7 @@ The following plot shows the weight of each relationship of the 6 main character
 <img src="figures/main_char_network/All_main_char.png" width="600"/> <img 
 </p>
 
-The highest relative weight is Joey and Chandler in season 5 at 0.54! This means that Joey and Chandler appears together in 54 % of all the scenes in season 5!
+The highest relative weight is Joey and Chandler in season 5 at 0.54! This means that Joey and Chandler appears together in 54 % of all the scenes in season 5! They also have the heigest weight when looking at all the seasons together.
 
 <p align="center">
  <img src="https://media.giphy.com/media/eMIGPdZ77kPgD7nf4j/giphy.gif" width="400"/>
