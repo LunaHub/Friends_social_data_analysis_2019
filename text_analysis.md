@@ -30,3 +30,17 @@ At the homes of the friends, it's the ones who live there that speaks the most. 
 At Monica and Rachel's apartment Joey comes to visit most often, at Chandler and Joey's apartment it's Ross who is the frequent visiter and at Monica and Chandler's apartment it's Joey who visits a lot - he's also used to be together with Chandler a lot because they used to live together. 
 
 When looking at the sentiment for the five locations there isn't much of a difference. The place with the highest rate is Monica and Chandler's apartment but it's only at 5.49. The lowest sentiment is at 4.64 and that's the same for all the places except for Ross' apartment that's at 4.66.
+
+
+
+## When the boys and the girls are alone
+
+<p align="center"> 
+	<img src="figures/wordcloud_girls.png" 
+	width="400">
+</p>
+
+<p align="center"> 
+	<img src="figures/wordcloud_boys.png" 
+	width="400">
+</p>
