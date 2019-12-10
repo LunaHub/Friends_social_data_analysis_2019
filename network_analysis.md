@@ -126,9 +126,4 @@ Some text here...
 	width="600">
 </p>
 
-## Something
-<p align="center" style="width: 50px;">
-	{% include All_seasons_frequent_char_network_interactive.html %} 
-</p>
-
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
