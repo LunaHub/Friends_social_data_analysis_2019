@@ -35,12 +35,18 @@ When looking at the sentiment for the five locations there isn't much of a diffe
 
 ## When the boys and the girls are alone
 
-<p align="center"> 
-	<img src="figures/wordcloud_girls.png" 
-	width="800">
-</p>
+A lot of us probably wonders what the other sex talks about when they're alone. Well for the boys of the friends crew, they talk a lot about being naked! But also about laundry. They talk about Emma's first word, "Gleba" and dollhouse, about Chandler's married co-worker Wendy who wants to have sex with him and Monica's ex-boyfriend, Pete.
 
 <p align="center"> 
 	<img src="figures/wordcloud_boys.png" 
 	width="800">
 </p>
+
+The boys also talks about being gay and the girls talk about lesbian. But mostly they talk about being french. They probably also talk a lot about their feelings about waiting and stay. They use words such as yelling, angry, hurting, unbelievable, keeping and decide.
+They talk about Demi Moore and Dudley Moore when Phoebe confuses them with each other and ends up giving Monica a short, mannish cut. They talk about Jack which could be Jack Geller, Ross and Monica's dad or Jack Bing, one of Monica and Chandler's children.
+
+<p align="center"> 
+	<img src="figures/wordcloud_girls.png" 
+	width="800">
+</p>
+
