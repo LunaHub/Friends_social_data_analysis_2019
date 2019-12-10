@@ -61,3 +61,28 @@ They talk about Demi Moore and Dudley Moore when Phoebe confuses them with each 
 	width="800">
 </p>
 
+
+
+## Wordcloud for each character
+
+### Monica
+
+
+
+### Joey
+Joey is the happy-go-lucky actor who never wants to grow up and loves food. We see this reflected in his words where he talks about *casting* a lot and also *script, unsuccessful, halfway* and *suffering*. He has some jobs in advertisement for instance as *the Aramis guy* Is fondness of cakes can also be seen in words such as *brownie* and *cheesecake*
+
+<p align="center"> 
+	<img src="figures/wordcloud_Joey_realwords.png" 
+	width="800">
+</p>
+
+### Monica
+Monica is known for her obsessive cleanliness but also very caring and mothering towards the other characters - something in a bit too controling and bossy way. She likes to cook and the friends often hang out at her place.
+We see her love for cooking in the wordcloud with words such as *swordfish, grilled, peel, caesar (salat), oyster, steaks, pate,  cocktails, lettuce* and *tomatos*. *Maurice* could refer to Joey's imaginary friend and 
+Monica also really wants to have children with Chandler and they end up *adopt*ing. 
+
+<p align="center"> 
+	<img src="figures/wordcloud_Monica_realwords.png" 
+	width="800">
+</p>
