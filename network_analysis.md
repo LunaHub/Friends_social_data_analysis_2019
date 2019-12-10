@@ -105,14 +105,13 @@ This is the network of the most frequenct appearing characters
 <p align="center"> 
 	{% include All_seasons_frequent_char_network_interactive.html %} 
 </p>
-{% include Interactive_network.html %} 
 
 ## Communitites
 <p align="center"> 
 	<img src="figures/All_seasons_network_communities.png" 
 	width="560">
 </p>
-Some text...
+Some text here...
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
 	width="400">
