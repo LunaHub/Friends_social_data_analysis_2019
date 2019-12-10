@@ -104,4 +104,22 @@ The complete network of all casted characters of the show includes 285 nodes(cha
 	{% include All_seasons_frequent_char_network_interactive.html %} 
 </p>
 
+## Communitites
+<p align="center"> 
+	<img src="figures/All_seasons_network_communities.png" 
+	width="560">
+</p>
+
+<p align="center"> 
+	<img src="figures/Number_of_char_in_communities.png" 
+	width="400">
+</p>
+
+## Friendship paradox
+<p align="center"> 
+	<img src="figures/Friendship_paradox.png" 
+	width="400">
+</p>
+
+
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
