@@ -37,10 +37,10 @@ When looking at the sentiment for the five locations there isn't much of a diffe
 
 <p align="center"> 
 	<img src="figures/wordcloud_girls.png" 
-	width="400">
+	width="800">
 </p>
 
 <p align="center"> 
 	<img src="figures/wordcloud_boys.png" 
-	width="400">
+	width="800">
 </p>
