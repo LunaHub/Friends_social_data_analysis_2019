@@ -32,6 +32,14 @@ The following plot shows the weight of each relationship of the 6 main character
 <p align="center">
 <img src="figures/main_char_network/All_main_char.png" width="500"/> <img 
 </p>
+ 
+The highest relative weight is Joey and Chandler in season 5 at 0.54! This means that Joey and Chandler appears together in 54 % of all the scenes in season 5!
+
+<p align="center">
+ <img src="https://media.giphy.com/media/eMIGPdZ77kPgD7nf4j/giphy.gif" width="400"/>
+</p>
+
+Insert gif of Joey and Chandler
 
 If you have seen the show you know that the two characters Ross and Rachel have a very complicated relationship through the show. By plotting the weight of the edge we can show how their relationship evolves.
 insert plot of rach and ross relationship.
