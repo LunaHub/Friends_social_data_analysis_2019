@@ -43,13 +43,13 @@ The highest relative weight is Joey and Chandler in season 5 at 0.54! This means
 If you have seen the show you know that the two characters Ross and Rachel have a very complicated relationship through the show. By plotting the weight of the edge we can show how their relationship evolves.
 
 <p align="center">
-<img src="figures/main_char_network/ross_rachel.png" width="600"/> <img 
+<img src="figures/main_char_network/ross_rachel.png" width="600"/> 
 </p>
 
 We can compare this to the number of scenes where Ross and Rachel are the only one present.
 
 <p align="center">
-<img src="figures/main_char_network/ross_rach_alone.png" width="600"/> <img 
+<img src="figures/main_char_network/ross_rach_alone.png" width="600"/>
 </p>
 
 By comparing the two graphs it shows, that eventho they spend alot of times togheter in the begining of the show, they are not nececarily(staves?) spending time apart from the rest of the group. This could be a indication that they dont have a romantic relationship in the begning of the show.
