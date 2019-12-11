@@ -27,7 +27,7 @@ This Website includes
 * [A text analysis of the.. ](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
 
 # Data
-The data used for this project can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/data) or by scrping this [link](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI).
+The data used for this project can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/data) or by scrapping this [link](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI).
 
 The data is first scraped from the website and then saved in sperate .csv files for each episode. The files contains information on what is being said, who is saying it and what scene.
 
