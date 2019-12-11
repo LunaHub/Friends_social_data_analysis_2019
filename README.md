@@ -16,10 +16,6 @@ It will also look at the issues that are being tackled at the different location
 
 The results of both the network and text analysis can be compared to unofficial rakings of each seasons to explore if either the cast or the storyline (spoken lines) can explain this.
 
-If this is not enough: 
-* Network analysis of the Wikipedia pages for the main characters of the sitcom (both the acthor and the sitcom character)
-  * Compare the network of the real achtors with the network of the characters
-
 # Content of Website
 This Website includes
 * [A Network Analysis of the main characters in the show](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)
