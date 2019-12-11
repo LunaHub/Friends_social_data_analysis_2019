@@ -16,7 +16,7 @@ It will also look at the issues that are being tackled at the different location
 This Website includes
 * [A Network Analysis of the main characters](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)
 * [A Network Analysis of the secondary characters](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
-* [A text analysis](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
+* [A Text Analysis](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
 
 # Data
 The data for this project is [transcripts](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI) of the show F.R.I.E.N.D.S. The transripts of each episode is downloaded as .CSV files from [here](https://github.com/shilpibhattacharyya/Friends_Analysis/tree/master/transcripts_friends). Before the analysis the data files are preprocessed to one dataframe including all the episodes. The file is 10.1 MB big and contains 61264 lines, with 907 unique speakers, 2878 unique scenes, 10 seasons and 227 episodes in total. The datafiles used in the analysis can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/data)
