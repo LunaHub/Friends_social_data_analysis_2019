@@ -30,6 +30,7 @@ The network is based on the characters appearance in each scene. If two main cha
 <img src="figures/main_char_network/main_network_all.png" width="600"/> 
 </p>
 
+## titel?
 The following plot shows the weight of each relationship of the 6 main characters. Because the number of scenes is varying the weight is calculated relative to the number of scenes in each season. 
 
 <p align="center">
@@ -44,7 +45,8 @@ The highest relative weight is Joey and Chandler in season 5 at 0.54! This means
  <img src="https://media.giphy.com/media/eMIGPdZ77kPgD7nf4j/giphy.gif" width="400"/>
 </p>
 
-The weigth follows each other
+## Pheobe and Ross
+Because each weigth follows each other it can be hard to tell them apart. By finding the weight relative to the sum of all the weights, it can show who has the heigest weight. 
 
 <p align="center">
 <img src="figures/main_char_network/Weight_Relative.png" width="600"/>
