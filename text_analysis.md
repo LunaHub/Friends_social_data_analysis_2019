@@ -126,3 +126,31 @@ Chandler is an executive specialized in statistical analysis and data reconfigur
 	<img src="figures/wordcloud_Chandler_realwords.png" 
 	width="800">
 </p>
+
+
+
+## Wordclout for seasons
+For the wordcloud for season 4, we see that *Joshua* is an important character that only appears in this season. He is a client of Rachel when she works at Bloomingdale's as a personal shopper. She falls madly in love with him and tries to start a relationship with him with little luck until the end but ends up scaring him away due to her eagerness to get married. 
+Phoebe also falls in love with a client named *Rick* that turns out to be married.
+
+
+<p align="center"> 
+	<img src="figures/wordcloud_s4.png" 
+	width="800">
+</p>
+
+In season 8, Ross dates Monica's colleague *Mona* but their relationship get complicated when they find out that Rachel is pregnant with Ross' child. 
+Chandler and Monica meet a couple, *Greg* and *Jenny* on their honeymoon. They act a bit obsessed with the other couple but it turns out that the feelings weren't reciprocated - they gave them a wrong number.
+*Dennis* is Chandler's mum's date (a dear old friend and great lover) at Monica and Chandler's wedding. He works as a directer on a Broadway show and Joey gets obsessed with convincing him to cast him in his next show.
+
+<p align="center"> 
+	<img src="figures/wordcloud_s8.png" 
+	width="800">
+</p>
+
+In season 9 Ross and Rachel looks for a *nanny* and ends up hiring a man named *Sandy*. Ross ends up firing him in the same episode because he gets freaked out by another man being *"too sensitive"*
+
+<p align="center"> 
+	<img src="figures/wordcloud_s9.png" 
+	width="800">
+</p>
