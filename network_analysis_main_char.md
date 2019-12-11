@@ -53,7 +53,7 @@ The weigth follows each other
 The plot shows that Ross and Pheoebe on average have the lowest weight compared to the rest of the group. This is also the case when inspecting the network for all the seasons. Through the show Ross and Pheoebe also argues a bit. In the episode *"The One Where Heckles Dies"* they argue about the existence of evolution, and in the episode *"The One With Joey's Big Break"* Phoebe is mad at Ross beacause of something she dreamed. So i might not be that weird that Ross and Phoebe aren't as close as the other members of the group.
 
 <p align="center">
- <img src="https://tenor.com/bd0V6.gif" width="400"/>
+<img src="figures/main_char_network/ross_pheobe.gif" width="400"/>
 </p>
 
 ## Ross and Rachel
