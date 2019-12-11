@@ -44,6 +44,18 @@ The highest relative weight is Joey and Chandler in season 5 at 0.54! This means
  <img src="https://media.giphy.com/media/eMIGPdZ77kPgD7nf4j/giphy.gif" width="400"/>
 </p>
 
+The weigth follows each other
+
+<p align="center">
+<img src="figures/main_char_network/Weight_Relative.png" width="600"/>
+</p>
+
+The plot shows that Ross and Pheoebe on average have the lowest weight compared to the rest of the group. This is also the case when inspecting the network for all the seasons. Through the show Ross and Pheoebe also argues a bit. In the episode *"The One Where Heckles Dies"* they argue about the existence of evolution, and in the episode *"The One With Joey's Big Break"* Phoebe is mad at Ross beacause of something she dreamed. So i might not be that weird that Ross and Phoebe aren't as close as the other members of the group.
+
+<p align="center">
+ <img src="https://tenor.com/bd0V6.gif" width="400"/>
+</p>
+
 ## Ross and Rachel
 If you have seen the show you know that the two characters Ross and Rachel have a very complicated relationship through the show. By plotting the weight of the edge, we can show how their relationship evolves.
 
