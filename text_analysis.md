@@ -35,16 +35,6 @@ Mike is the one whos name is mentioned the most by the friends - 201 times in to
 The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_names_season.ipynb)
  
 
-## Location
-The friends are often at the café Central Perk. The one who speaks the most there is Phoebe followed by Ross. The scenes does not take place at their homes so it makes sense that they need to 'compensate'. 
-At the homes of the friends, it's the ones who live there that speaks the most. At Ross' place it's Rachel that speaks the most, which makes sense because they have an on-off relationship.
-At Monica and Rachel's apartment Joey comes to visit most often, at Chandler and Joey's apartment it's Ross who is the frequent visiter and at Monica and Chandler's apartment it's Joey who visits a lot - he's also used to be together with Chandler a lot because they used to live together. 
-
-When looking at the sentiment for the five locations there isn't much of a difference. The place with the highest rate is Monica and Chandler's apartment but it's only at 5.49. The lowest sentiment is at 4.64 and that's the same for all the places except for Ross' apartment that's at 4.66.
-Script for sentiment for location can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment_location.ipynb) and sentiment for the six friends can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment.ipynb)
-
-
-
 ## When the boys and the girls are alone
 
 A lot of us probably wonders what the other sex talks about when they're alone. Well for the boys of the friends crew, they talk a lot about being naked! But also about laundry. They talk about Emma's first word, "Gleba" and dollhouse, about Chandler's married co-worker Wendy who wants to have sex with him and Monica's ex-boyfriend, Pete.
@@ -184,6 +174,22 @@ Though the friends talk a lot about their work and the word is used 691 times in
 
 
 ## Sentiment
+### The six friends
+A quick view of the sentiment for the six friends also shows that they are pretty much aligned in their level of happiness. No one sticks out; everybody is pretty fine.
+Script for sentiment for each of the friends can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment_realwords.ipynb)
+So let's be a bit more concrete and see if a specific location or season can reveal something different. 
+
+
+### Location
+The friends are often at the café Central Perk. The one who speaks the most there is Phoebe followed by Ross. The scenes does not take place at their homes so it makes sense that they need to 'compensate'. 
+At the homes of the friends, it's the ones who live there that speaks the most. At Ross' place it's Rachel that speaks the most, which makes sense because they have an on-off relationship.
+At Monica and Rachel's apartment Joey comes to visit most often, at Chandler and Joey's apartment it's Ross who is the frequent visiter and at Monica and Chandler's apartment it's Joey who visits a lot - he's also used to be together with Chandler a lot because they used to live together. 
+
+When looking at the sentiment for the five locations there isn't much of a difference. The place with the highest rate is Monica and Chandler's apartment but it's only at 5.49. The lowest sentiment is at 4.64 and that's the same for all the places except for Ross' apartment that's at 4.66.
+Script for sentiment for location can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment_location.ipynb) and sentiment for the six friends can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment.ipynb)
+
+
+### Seasons
 Although characters break up, get back together and have children, the sentiment doesn't show any such moodswings. It is for all characters, for all seasons and for the different locations kept pretty stable around 4.6-5.4
 
 <p align="center"> 
@@ -192,5 +198,8 @@ Although characters break up, get back together and have children, the sentiment
 </p>
 
 This makes sense due to the fact that the show is known to be easy entertainment that people don't get overwhelmed by bing-watching. If we were bombarted by hugh feelings every time they turned on the show it probably wouldn't be as popular. 
+
+Script for sentiment for each season can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment_season.ipynb)
+
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
