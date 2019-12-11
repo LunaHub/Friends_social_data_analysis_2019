@@ -127,7 +127,7 @@ Each of the main characters are connected to a number of secondary characters an
 	width="560">
 </p>
 
-The number of characters in each community is seen in the Figure below. It is clear the Ross/Rachel community is the largest and that the commnity with non of the main characters is the smallest.
+The number of characters in each community is seen in the Figure below. It is clear the Ross/Rachel community is the largest and that the commnity with non of the main characters is the smallest. However the modularity of the network is 0.09 which means that the communities in fact are highly connected. 
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
 	width="500">
