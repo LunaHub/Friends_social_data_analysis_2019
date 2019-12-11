@@ -188,3 +188,5 @@ Although characters break up, get back together and have children, the sentiment
 	<img src="figures/sentiment_location_plot.PNG" 
 	width="800">
 </p>
+
+This makes sense due to the fact that the show is known to be easy entertainment that people don't get overwhelmed by bing-watching. If we were bombarted by hugh feelings every time they turned on the show it probably wouldn't be as popular. 
