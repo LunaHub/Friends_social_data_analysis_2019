@@ -61,7 +61,7 @@ Hover on the image to show labels of the smaller nodes. You can also hover on th
        width="112" />
 </p>
 
-Each node represent a character that appeared in the show. The nodes are connected if the characters appear in the same scene or are mentioned in scene. As shown in the analysis of the main characters, the link between the main characters are quite strong. As this section aims at exploring the secondary characters of the show, the links between the main characters are excluded for a nicer visualization. 
+Each node represent a character that appeared in the show. The nodes are connected if the characters appear in the same scene or are mentioned in scene. The size of each node is based on how many connections a character has, ie. larger nodes means that the character has many connections. The thickness of the line drawn between each nodes is related to how many times the two characters are connected. Thick lines means that the more connected. As shown in the analysis of the main characters, the link between the main characters are quite strong. As this section aims at exploring the secondary characters of the show, the links between the main characters are excluded for a nicer visualization. 
 
 As you might notice the network does not give alot of information, so lets dig in the features of the network.
 
@@ -110,13 +110,16 @@ Another way to investigate the most important sencodary characters is to look at
 </p>
 
 ### Networks of secondary characters
-This is the network of the most frequenct appearing characters. Ændret højden
+Lets take a look at the who the most important sencondary chracters are based on the number of connections to other characters and based on how many seasons they appear. The interactive graph below show the two networks. The size of the nodes are based on how many connections the character has in the full network. The green network is the based on the characters appearing in 8 or more seasons and the blue is based on the 10 most connected characters.
 
 <p align="center">
 	{% include Interactive_network.html %} 
 </p>
 
+Both network ofcourse includes the six main characters. The analysis found that the secondary characters that appear in eight or more seasons are; Tony, David, Gunther, Bob, Ben, Jack, Susan, Carol, Lauren, Richard, Janice, Ursula and Estelle. The 10 most connected characters are; Susan, Carol, Ben, Mike, Gunther, Janice, Richard, Emily, Emma and Frank. Knowing the storyline of the show, the characters found by the last analysis fit best.
+
 ## Communitites
+Each of the main characters are connected to a number of secondary characters and some of the main characters are also connected to the same secondary characters. The Figure below show how the Louvain algorithm cluster the characters into communities. The algorithm found a total of six communities; five that each includes one or two of the main characters and one that does not. The algorithm clustered Ross and Rachel together in one community. This makes sense as the two are in a relationsship is a great part of the show. The community that do not include any of the main characters however includes most of the most important secondary characters.
 <p align="center"> 
 	<img src="figures/All_seasons_network_communities_no_labels.png" 
 	onmouseover="this.src='figures/All_seasons_network_communities.png';" 
@@ -124,7 +127,7 @@ This is the network of the most frequenct appearing characters. Ændret højden
 	width="560">
 </p>
 
-Some text here...
+The number of characters in each community is seen in the Figure below. It is clear the Ross/Rachel community is the largest and that the commnity with non of the main characters is the smallest.
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
 	width="400">
