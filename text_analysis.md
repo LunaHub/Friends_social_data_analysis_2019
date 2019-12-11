@@ -154,3 +154,12 @@ In season 9 Ross and Rachel looks for a *nanny* and ends up hiring a man named *
 	<img src="figures/wordcloud_s9.png" 
 	width="800">
 </p>
+
+
+## Reoccuring themes
+
+<p align="center"> 
+	<img src="https://media.giphy.com/media/UTY42CoHu6wixtxTDh/source.mp4" 
+	width="800">
+</p>
+
