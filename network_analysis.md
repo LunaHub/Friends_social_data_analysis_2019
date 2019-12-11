@@ -145,7 +145,7 @@ The Figure above show the number of connection for each character related to the
 
 <p align="center"> 
 	<img src="figures/Centrality.png" 
-	width="600">
+	width="500">
 </p>
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
