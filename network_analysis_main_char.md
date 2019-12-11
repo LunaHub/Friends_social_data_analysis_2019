@@ -30,7 +30,7 @@ The network is based on the characters appearance in each scene. If two main cha
 <img src="figures/main_char_network/main_network_all.png" width="600"/> 
 </p>
 
-## titel?
+## Relative Weight
 The following plot shows the weight of each relationship of the 6 main characters. Because the number of scenes is varying the weight is calculated relative to the number of scenes in each season. 
 
 <p align="center">
