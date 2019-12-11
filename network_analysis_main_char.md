@@ -75,4 +75,13 @@ By comparing the two graphs it shows, that even though they spend a lot of times
 
 The last three seasons their weight is very fluctuating. This makes sense because in season 8 Ross and Rachel gets a baby, in season 9 they are broken up, but in season 10 they end up together.
 
+## Monica and Chandler
+Similar analysis can be done with Chandler and Monica who starts dating at the end of season 4.
+
+<p align="center">
+<img src="figures/main_char_network/chandler_monica_alone.png" width="600"/>
+</p>
+
+Its very clear that they spend more time alone after they start dating. When comparing it to Ross and Rachels relationship its clear that Monicas and Chandlers relationship is alot less complicated.
+
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
