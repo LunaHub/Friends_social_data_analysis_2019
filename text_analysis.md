@@ -5,35 +5,35 @@
 
 There has been a lot of discussion about who is the maincharacter in friends. 
 If we look at the percentage of lines among the friends and who has the most lines, the maincharacter in the first three seasons is Ross with 20-21% of the lines. In season 4 and 5, Chandler is then the one with the most lines (17-5-18.4%), in season 6 it's shared between Rachel and Chandler who have 18.5-18.3% of the lines then in season 7, 8 and 9 Rachel takes over with 19.9-20.7% of the lines in 7 and 8 and then declines down to 17.4%. Season 9 is the season with the most evenly distribued number of lines between the friends. In the last season, Ross is back with the most lines (19.8%)
+Script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_says_season.ipynb)
 
 <p align="center"> 
 	<img src="figures/percent_lines.png" 
 	width="800">
 </p>
 
-Compared to the percentage where the friends are mentioned by each other, a similar pattern shows. Except for in season 7, Ross is the one who is mentioned most frequent. Monica is not mentioned that much but in season this changes and she is the one who is mentioned 22.4% of the time - this could be because she gets married to Chandler.
+
+Compared to the percentage where the friends are mentioned by each other, a similar pattern shows. Except for in season 7, Ross is the one who is mentioned most frequent. In total Ross is mentioned 2055 times. Monica is not mentioned that much but in season this changes and she is the one who is mentioned 22.4% of the time - this could be because she gets married to Chandler. 
+The two people who mentions Monica the most in season 7 is Rachel who mentiones Monica 51 times and Chandler mentiones her name 85 times in the season.
 
 <p align="center"> 
 	<img src="figures/percent_mentioned.png" 
 	width="800">
 </p>
 
-The two people who mentions her the most in season 7 is Rachel who mentiones Monica 51 times and Chandler mentiones her name 85 times in the season.
-In total Ross is mentioned 2055 times followed by Joey who is mentioned 1729 times.
+The number of times that the characters says each others names can help to show their relationship
+The friend that Joey mentiones the most in total is Ross (398) followed by Chandler (386). He doesn't have a serious relationship with any of the girls so it makes sense, that he talks the most with his two good friends.
 
-The friend that Joey mentiones the most in total is Ross (398) followed by Chandler (386)
-
-The friend that Rachel mentiones the most in total is Ross (693) followed by Joey (388)
-
-The friend that Ross mentiones the most in total is Rachel (429) followed by Joey (283)
-
+The friend that Rachel mentiones the most in total is Ross (693) followed by Joey (388) and the friend that Ross mentiones the most in total is Rachel (429) followed by Joey (283) - here we also see that the loveinterest is the one who's name is used most frequent. Both Ross and Rachel mention Joey the most but the reason for this could be Joey's ability to get himself into trouble and stupid situations. Joss is also the one who mentions his own name the most - 186 times in total which is more times that he mentions Phoebe, whom he only mentions 165 times.
 The friend that Chandler mentiones the most in total is Monica (369) followed by Joey (357)
-So he mentions his best friend almost as many times as his love interest 
-
-The friend that Monica mentiones the most in total is Chandler (461) followed by Phoebe (342)
+So Chandler mentions his best friend almost as many times as his love interest.The friend that Monica mentiones the most in total is Chandler (461) followed by Phoebe (342). So Monica does talk a lot more about Chandler than he talks about her. Or another explanation could be, that Chandler more often uses a different name for Monica, like *Mon* or sweetheart. 
 
 The friend that Phoebe mentiones the most in total is Monica (277) followed by Rachel (268) but in general she mentions the friends fairly evenly - the two she mentions the least are Joey and Chandler who she mentions 211 times for both.
 
+We can also look at the secondary characters and determine how the characters relationship with them were. We can see that a guy named *Mike* is present in the first season but this is another guy with the samen name. He only becomes central in season 9 and 10 - espicially for Phoebe whom he marries.
+Mike is the one whos name is mentioned the most by the friends - 201 times in total; half of the time by Phoebe. Compared to that Chandlers former girlfriend, Janice, known for exclaiming "*OH. MY. GOD!*" only gets mentioned 103 times.
+The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_names_season.ipynb)
+ 
 
 ## Location
 The friends are often at the café Central Perk. The one who speaks the most there is Phoebe followed by Ross. The scenes does not take place at their homes so it makes sense that they need to 'compensate'. 
@@ -41,6 +41,7 @@ At the homes of the friends, it's the ones who live there that speaks the most. 
 At Monica and Rachel's apartment Joey comes to visit most often, at Chandler and Joey's apartment it's Ross who is the frequent visiter and at Monica and Chandler's apartment it's Joey who visits a lot - he's also used to be together with Chandler a lot because they used to live together. 
 
 When looking at the sentiment for the five locations there isn't much of a difference. The place with the highest rate is Monica and Chandler's apartment but it's only at 5.49. The lowest sentiment is at 4.64 and that's the same for all the places except for Ross' apartment that's at 4.66.
+Script for sentiment for location can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment_location.ipynb) and sentiment for the six friends can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_sentiment.ipynb)
 
 
 
@@ -61,7 +62,7 @@ They talk about Demi Moore and Dudley Moore when Phoebe confuses them with each 
 	width="800">
 </p>
 
-
+The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_wordcloud_boysgirls.ipynb)
 
 ## Wordcloud for each character
 
@@ -127,7 +128,7 @@ Chandler is an executive specialized in statistical analysis and data reconfigur
 	width="800">
 </p>
 
-
+The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_wordcloud_realwords.ipynb)
 
 ## Wordclout for seasons
 For the wordcloud for season 4, we see that *Joshua* is an important character that only appears in this season. He is a client of Rachel when she works at Bloomingdale's as a personal shopper. She falls madly in love with him and tries to start a relationship with him with little luck until the end but ends up scaring him away due to her eagerness to get married. 
@@ -155,6 +156,7 @@ In season 9 Ross and Rachel looks for a *nanny* and ends up hiring a man named *
 	width="800">
 </p>
 
+The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_wordcloud_season.ipynb)
 
 ## Reoccuring themes
 
@@ -190,3 +192,5 @@ Although characters break up, get back together and have children, the sentiment
 </p>
 
 This makes sense due to the fact that the show is known to be easy entertainment that people don't get overwhelmed by bing-watching. If we were bombarted by hugh feelings every time they turned on the show it probably wouldn't be as popular. 
+
+[Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
