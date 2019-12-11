@@ -120,3 +120,9 @@ She takes on rather creative activities at times. *Marcia* is her alias for Moni
 Chandler is an executive specialized in statistical analysis and data reconfiguration but frequently talks about how he dislikes his job. This is expressed in words such as *eyesore, slave, survive, anxiety* and *distraught*.
 
 *Brian* is Chandler's attractive gay co-worker that Chandler declares he could get if he wanted to, *Nina* is another co-worker that he messes things up with - in both cases the word *offended* seems appropriate, *Aurora* is a polyamorous woman he dates 
+
+
+<p align="center"> 
+	<img src="figures/wordcloud_Chandler_realwords.png" 
+	width="800">
+</p>
