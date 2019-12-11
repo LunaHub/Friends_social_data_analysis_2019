@@ -130,12 +130,21 @@ Each of the main characters are connected to a number of secondary characters an
 The number of characters in each community is seen in the Figure below. It is clear the Ross/Rachel community is the largest and that the commnity with non of the main characters is the smallest.
 <p align="center"> 
 	<img src="figures/Number_of_char_in_communities.png" 
-	width="400">
+	width="500">
 </p>
 
 ## Friendship paradox
+A known phenomenon within sociology is the Friendship Paradox. It states that almost all of your friends will have more friends than you. Lets exlore this for the characters in the show. The analysis show that the frinedship paradox is true for 264 of the 276 characters, which is equal to 95%.
+
 <p align="center"> 
 	<img src="figures/Friendship_paradox.png" 
+	width="600">
+</p>
+
+The Figure above show the number of connection for each character related to the average number of connections for the characters connections. The line indicates the friendship paradox. The characters that do not fulfill the friendship paradox is non-suprissingly also the most central characters. The Figure below show the centrality based on the number of connections, of the characters that do not fulfill the friendship paradox.
+
+<p align="center"> 
+	<img src="figures/centrality.png" 
 	width="600">
 </p>
 
