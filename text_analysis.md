@@ -4,7 +4,7 @@
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
 
 There has been a lot of discussion about who is the maincharacter in friends. 
-If we look at the percentage of lines among the friends and who has the most lines, the maincharacter in the first three seasons is Ross with 20-21% of the lines. In season 4 and 5, Chandler is then the one with the most lines (17-5-18.4%), in season 6 it's shared between Rachel and Chandler who have 18.5-18.3% of the lines then in season 7, 8 and 9 Rachel takes over with 19.9-20.7% of the lines in 7 and 8 and then declines down to 17.4%. Season 9 is the season with the most evenly distribued number of lines between the friends. In the last season, Ross is back with the most lines (19.8%)
+If we look at the percentage of lines among the friends and who has the most lines, the maincharacter in the first three seasons is Ross with 20-21% of the lines. In season 4 and 5, Chandler is then the one with the most lines (17-5-18.4%), in season 6 it's shared between Rachel and Chandler who have 18.5-18.3% of the lines then in season 7, 8 and 9 Rachel takes over with 19.9-20.7% of the lines in 7 and 8 and then declines down to 17.4%. Season 9 is the season with the most evenly distributed number of lines between the friends. In the last season, Ross is back with the most lines (19.8%)
 Script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_says_season.ipynb)
 
 <p align="center"> 
@@ -34,8 +34,8 @@ We can also look at the secondary characters and determine how the characters re
 Mike is the one whos name is mentioned the most by the friends - 201 times in total; half of the time by Phoebe. Compared to that Chandlers former girlfriend, Janice, known for exclaiming "*OH. MY. GOD!*" only gets mentioned 103 times.
 The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_names_season.ipynb)
  
-
-## When the boys and the girls are alone
+## Wordcloud
+### When the boys and the girls are alone
 
 A lot of us probably wonders what the other sex talks about when they're alone. Well for the boys of the friends crew, they talk a lot about being naked! But also about laundry. They talk about Emma's first word, "Gleba" and dollhouse, about Chandler's married co-worker Wendy who wants to have sex with him and Monica's ex-boyfriend, Pete.
 
@@ -54,9 +54,9 @@ They talk about Demi Moore and Dudley Moore when Phoebe confuses them with each 
 
 The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_wordcloud_boysgirls.ipynb)
 
-## Wordcloud for each character
+### Wordcloud for each character
 
-### Rachel
+#### Rachel
 Rachel is a uptown girl who is used to being taking care of. At the start of the show she has abbandoned her wealthy husband at the alter and tries taking back her freedom by denying her dad's money. During the seasons she becomes more independent and serious.
 We see her more fancy past in words such as *novelty, Mercedes, Vogue, antique, gracious demand* and *gala* and the sorority *Kappa Kappa Delta* that she was a part of.
 She uses her experience and love for *design* to get a job at Ralph Laurent where she use the word *litigious* to convince the interviewer to give her a chance to work there. 
@@ -68,7 +68,7 @@ We see how she works with things from her past; *copa cabana* is a part of the s
 </p>
 
 
-### Ross
+#### Ross
 Ross is the geeky older brother. He is a paleontologist and is granted a *tenure*. He tries to share historic facts with the friends but they are not too keen to listen. He tries to tell the storie of the *Maccabees* but gets interrupted, he talks about the *mesozoic* era, *clay, sediment, carbon, gradiate alumni, profession*.
 
 
@@ -77,7 +77,7 @@ Ross is the geeky older brother. He is a paleontologist and is granted a *tenure
 	width="800">
 </p>
 
-### Joey
+#### Joey
 Joey is the happy-go-lucky actor who never wants to grow up and loves food. We see this reflected in his words where he talks about *casting* a lot and also *script, unsuccessful, halfway* and *suffering*. He has some jobs in advertisement for instance as *the Aramis guy* Is fondness of cakes can also be seen in words such as *brownie* and *cheesecake*
 
 <p align="center"> 
@@ -85,7 +85,7 @@ Joey is the happy-go-lucky actor who never wants to grow up and loves food. We s
 	width="800">
 </p>
 
-### Monica
+#### Monica
 Monica is known for her obsessive cleanliness but also very caring and mothering towards the other characters - something in a bit too controling and bossy way. She likes to cook and the friends often hang out at her place.
 We see her love for cooking in the wordcloud with words such as *swordfish, grilled, peel, caesar (salat), oyster, steaks, pate,  cocktails, lettuce* and *tomatos*. *Maurice* could refer to Joey's imaginary friend and 
 Monica also really wants to have children with Chandler and they end up *adopt*ing. 
@@ -95,7 +95,7 @@ Monica also really wants to have children with Chandler and they end up *adopt*i
 	width="800">
 </p>
 
-### Phoebe
+#### Phoebe
 Phoebe is not your average american girl. She had a rough childhood and started living on the streets of New York City by the age of 14. Due to this she has some crazy stories that really stands out from the rest of the friends group.
 We can see that she uses more dramatic words like *madness*, *abandonment* and *hunger*
 She cares deeply about the people around her but has some tragic figures in her life. *Earl* is a stranger she ends up convincing not to kill himself and develops a friendship with, *Debbie* is her friend who died in high school and Ellen is a friend who is in rehab at the time of her wedding.
@@ -107,7 +107,7 @@ She takes on rather creative activities at times. *Marcia* is her alias for Moni
 	width="800">
 </p>
 
-### Chandler
+#### Chandler
 Chandler is an executive specialized in statistical analysis and data reconfiguration but frequently talks about how he dislikes his job. This is expressed in words such as *eyesore, slave, survive, anxiety* and *distraught*.
 
 *Brian* is Chandler's attractive gay co-worker that Chandler declares he could get if he wanted to, *Nina* is another co-worker that he messes things up with - in both cases the word *offended* seems appropriate, *Aurora* is a polyamorous woman he dates 
@@ -120,7 +120,7 @@ Chandler is an executive specialized in statistical analysis and data reconfigur
 
 The script can be found [here](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Friends_wordcloud_realwords.ipynb)
 
-## Wordclout for seasons
+### Wordclout for seasons
 For the wordcloud for season 4, we see that *Joshua* is an important character that only appears in this season. He is a client of Rachel when she works at Bloomingdale's as a personal shopper. She falls madly in love with him and tries to start a relationship with him with little luck until the end but ends up scaring him away due to her eagerness to get married. 
 Phoebe also falls in love with a client named *Rick* that turns out to be married.
 
