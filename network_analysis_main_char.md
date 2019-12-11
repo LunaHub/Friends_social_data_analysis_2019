@@ -33,8 +33,10 @@ The network is based on the characters appearance in each scene. If two main cha
 The following plot shows the weight of each relationship of the 6 main characters. Because the number of scenes is varying the weight is calculated relative to the number of scenes in each season. 
 
 <p align="center">
-<img src="figures/main_char_network/All_main_char.png" width="600"/> <img 
+<img src="figures/main_char_network/All_main_char.png" width="600"/>
 </p>
+ 
+The plot shows that the group has an average heiger edge weight around season 5. Fun fact, the highest rated episode is in season 5, with an imdb rating on 9.7. Maybe theres a corralation?
 
 The highest relative weight is Joey and Chandler in season 5 at 0.54! This means that Joey and Chandler appears together in 54 % of all the scenes in season 5! They also have the heigest weight when looking at all the seasons together.
 
