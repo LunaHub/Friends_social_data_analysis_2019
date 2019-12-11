@@ -24,4 +24,4 @@ This Website includes
 The data for this project is a [transcript](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI) of the show Friends and is downloaded as a .CSV [file](https://github.com/shilpibhattacharyya/Friends_Analysis/tree/master/transcripts_friends) for each episode. The data is then preprossed.
 
 # Explainer notebook
-Further more an explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen [here](http://localhost:8888/notebooks/Desktop/Socialgrafer/project_v2/Explainer_notebook.ipynb)
+Further more an explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) or seen [here](https://github.com/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Explainer_notebook.ipynb)
