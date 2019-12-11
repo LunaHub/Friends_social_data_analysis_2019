@@ -26,4 +26,4 @@ The data for this project is a [transcript](https://fangj.github.io/friends/?fbc
 The file is 10.1 MB big and containing 61264 lines, with 907 unique speakers, 2878 unique scenes, 10 seasons and 227 episodes in total.
 
 # Explainer notebook
-Further more all explanatory notebooks can also be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) and the explainer notebook can be found [here.](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Explainer_notebook.ipynb)
+Further more all notebooks used for the analysis can be downloaded from the [repository](https://github.com/LunaHub/Friends_social_data_analysis_2019/tree/master/Jupyter_notebook) and an explainer notebook can be found [here.](https://nbviewer.jupyter.org/github/LunaHub/Friends_social_data_analysis_2019/blob/master/Jupyter_notebook/Explainer_notebook.ipynb)
