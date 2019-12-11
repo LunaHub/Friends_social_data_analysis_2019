@@ -144,7 +144,7 @@ A known phenomenon within sociology is the Friendship Paradox. It states that al
 The Figure above show the number of connection for each character related to the average number of connections for the characters connections. The line indicates the friendship paradox. The characters that do not fulfill the friendship paradox is non-suprissingly also the most central characters. The Figure below show the centrality based on the number of connections, of the characters that do not fulfill the friendship paradox.
 
 <p align="center"> 
-	<img src="figures/centrality.png" 
+	<img src="figures/Centrality.png" 
 	width="600">
 </p>
 
