@@ -65,9 +65,26 @@ They talk about Demi Moore and Dudley Moore when Phoebe confuses them with each 
 
 ## Wordcloud for each character
 
-### Monica
+### Rachel
+Rachel is a uptown girl who is used to being taking care of. At the start of the show she has abbandoned her wealthy husband at the alter and tries taking back her freedom by denying her dad's money. During the seasons she becomes more independent and serious.
+We see her more fancy past in words such as *novelty, Mercedes, Vogue, antique, gracious demand* and *gala* and the sorority *Kappa Kappa Delta* that she was a part of.
+She uses her experience and love for *design* to get a job at Ralph Laurent where she use the word *litigious* to convince the interviewer to give her a chance to work there. 
+We see how she works with things from her past; *copa cabana* is a part of the song "Copacabana by Barry Manilow" she sings when trying to face up to a bad childhood memory. *Shoop* is from a video of her as a child
+
+<p align="center"> 
+	<img src="figures/wordcloud_Rachel_realwords.png" 
+	width="800">
+</p>
 
 
+### Ross
+Ross is the geeky older brother. He is a paleontologist and is granted a *tenure*. He tries to share historic facts with the friends but they are not too keen to listen. He tries to tell the storie of the *Maccabees* but gets interrupted, he talks about the *mesozoic* era, *clay, sediment, carbon, gradiate alumni, profession*.
+
+
+<p align="center"> 
+	<img src="figures/wordcloud_Ross_realwords.png" 
+	width="800">
+</p>
 
 ### Joey
 Joey is the happy-go-lucky actor who never wants to grow up and loves food. We see this reflected in his words where he talks about *casting* a lot and also *script, unsuccessful, halfway* and *suffering*. He has some jobs in advertisement for instance as *the Aramis guy* Is fondness of cakes can also be seen in words such as *brownie* and *cheesecake*
@@ -86,3 +103,20 @@ Monica also really wants to have children with Chandler and they end up *adopt*i
 	<img src="figures/wordcloud_Monica_realwords.png" 
 	width="800">
 </p>
+
+### Phoebe
+Phoebe is not your average american girl. She had a rough childhood and started living on the streets of New York City by the age of 14. Due to this she has some crazy stories that really stands out from the rest of the friends group.
+We can see that she uses more dramatic words like *madness*, *abandonment* and *hunger*
+She cares deeply about the people around her but has some tragic figures in her life. *Earl* is a stranger she ends up convincing not to kill himself and develops a friendship with, *Debbie* is her friend who died in high school and Ellen is a friend who is in rehab at the time of her wedding.
+She takes on rather creative activities at times. *Marcia* is her alias for Monica when she writes about him and Chandler, *platting* is from a song she sings
+
+
+<p align="center"> 
+	<img src="figures/wordcloud_Phoebe_realwords.png" 
+	width="800">
+</p>
+
+### Chandler
+Chandler is an executive specialized in statistical analysis and data reconfiguration but frequently talks about how he dislikes his job. This is expressed in words such as *eyesore, slave, survive, anxiety* and *distraught*.
+
+*Brian* is Chandler's attractive gay co-worker that Chandler declares he could get if he wanted to, *Nina* is another co-worker that he messes things up with - in both cases the word *offended* seems appropriate, *Aurora* is a polyamorous woman he dates 
