@@ -163,3 +163,19 @@ In season 9 Ross and Rachel looks for a *nanny* and ends up hiring a man named *
 	width="800">
 </p>
 
+
+Things with Rachel and Ross has never been easy. In season 3, episode 6 "The One Where Ross and Rachel Take A Break" an ungoing discussion starts to wheter they were broken up or on a break. The sentence *"on a break"* gets mentioned in 14 different episodes by Ross, Rachel, Joey, Phoebe and even by Ross' son Ben, whom Rachel tries to convince of her side of the story.
+
+<p align="center"> 
+	<img src="https://media.giphy.com/media/JQSCdkVWIY1CF51sjG/giphy.gif" 
+	width="800">
+</p>
+It isn't only Janice who exclaims "*Oh My God!*" - it is said a total of 800 times in the show
+
+A huge part of Friends focuses on their lovelife. The friends goes on various dates - especially in season 8 the word *date* is used a lot. The friends also get kids which can be seen from the frequency of the word *baby* that is most prominent in season 1 and 8-10.
+Though the friends talk a lot about their work and the word is used 691 times in total, they don't get a lot of promotions - the word is only used two times; one time in season 1 and one time in season 9. Instead they talk about getting fired - especially in season 1 (9 times) and 6 (14 times)
+
+<p align="center"> 
+	<img src="figures/word_season_total.PNG" 
+	width="800">
+</p>
