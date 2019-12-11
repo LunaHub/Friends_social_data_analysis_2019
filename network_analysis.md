@@ -4,6 +4,10 @@
 Your are probably already fimiliar with the 6 main characters of friends (otherwise go [here](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)). However there are a number of secondary characters that appear quite alot in the show. But how often do they appear? And who are the "main" secondary characters of the show?
 This section will explore the features of the social network of the complete cast of all seasons along with the networks of each season to investigate the evolution over seasons. 
 
+<p align="center"> 
+<img src="figures/brand_new_info.gif" width="300">
+</p>
+
 The following figures show the complete social network of all charaters in the entire show of F.R.I.E.N.D.S. 
 Hover on the image to show labels of the smaller nodes. You can also hover on the images below to show the network of each season.
 
@@ -74,7 +78,7 @@ The complete network of all casted characters of the show includes 276 charatcer
 	width="400">
 </p>
 
-The degree distribution is seen in the Figure below. Degree is a measure of how many connection a character has. The Figure show that the majority of the characters have 5 to ten connection to other characters. A small fraction of characters however have +50 connections to other characters. It is assumed that these are the main characters. It is also clear that the destribution is similar in all seasons.
+The degree distribution is seen in the Figure below. Degree is a measure of how many connection a character has. The Figure show that the majority of the characters have 5 to ten connection to other characters. A small fraction of characters however have +50 connections to other characters. It is assumed that these are the main characters. It is also clear that the destribution is similar in all seasons. The distribution is a poisson distribution which is the characteristic of a random network. The distribution is however right-skewed which approximates the power distribution that characterize scale-free real social network.
 
 <p align="center"> 
 	<img src="figures/Degree_dist.png" 
@@ -112,7 +116,7 @@ Lets take a look at the who the most important sencondary chracters are based on
 	{% include Interactive_network.html %} 
 </p>
 
-Both network ofcourse includes the six main characters. The analysis found that the secondary characters that appear in eight or more seasons are; Tony, David, Gunther, Bob, Ben, Jack, Susan, Carol, Lauren, Richard, Janice, Ursula and Estelle. The 10 most connected characters are; Susan, Carol, Ben, Mike, Gunther, Janice, Richard, Emily, Emma and Frank. Knowing the storyline of the show, the characters found by the last analysis fit best.
+Both network ofcourse includes the six main characters. The analysis found that the secondary characters that appear in eight or more seasons are; Tony, David, Gunther, Bob, Ben, Jack, Susan, Carol, Lauren, Richard, Janice, Ursula and Estelle. The 10 most connected characters are; Susan, Carol, Ben, Mike, Gunther, Janice, Richard, Emily, Emma and Frank. Knowing the storyline of the show, the characters found by the last analysis fits best. The first analysis finds characters that are not really part of the storyline. Eg. the character "Bob" is not an important character. But the name is apparently mentioned alot by the other characters in different contexts, which is why it is found by our analysis.
 
 ## Communitites
 Each of the main characters are connected to a number of secondary characters and some of the main characters are also connected to the same secondary characters. The Figure below show how the Louvain algorithm cluster the characters into communities. The algorithm found a total of six communities; five that each includes one or two of the main characters and one that does not. The algorithm clustered Ross and Rachel together in one community. This makes sense as the two are in a relationsship is a great part of the show. The community that do not include any of the main characters however includes most of the most important secondary characters.
@@ -144,11 +148,5 @@ The Figure above show the number of connection for each character related to the
 	width="500">
 </p>
 
-## Conclusion 
-The conclusion is...
-
-<p align="center"> 
-<img src="figures/brand_new_info.gif" width="300">
-</p>
 
 [Go Back](https://lunahub.github.io/Friends_social_data_analysis_2019/)
