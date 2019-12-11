@@ -179,3 +179,12 @@ Though the friends talk a lot about their work and the word is used 691 times in
 	<img src="figures/word_season_total.PNG" 
 	width="800">
 </p>
+
+
+## Sentiment
+Although characters break up, get back together and have children, the sentiment doesn't show any such moodswings. It is for all characters, for all seasons and for the different locations kept pretty stable around 4.6-5.4
+
+<p align="center"> 
+	<img src="figures/sentiment_location.PNG" 
+	width="800">
+</p>
