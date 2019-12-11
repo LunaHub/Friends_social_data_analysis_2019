@@ -16,9 +16,9 @@ It will also look at the issues that are being tackled at the different location
 
 # Content of Website
 This Website includes
-* [A Network Analysis of the main characters in the show](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)
-* [A Network Analysis of all characters in the show](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
-* [A text analysis of the.. ](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
+* [A Network Analysis of the main characters](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis_main_char)
+* [A Network Analysis of the secondary characters](https://lunahub.github.io/Friends_social_data_analysis_2019/network_analysis)
+* [A text analysis](https://lunahub.github.io/Friends_social_data_analysis_2019/text_analysis)
 
 # Data
 The data for this project is a [transcript](https://fangj.github.io/friends/?fbclid=IwAR2vf_96q737D1Q-z45fe8obSGk_iWVhCtdKAaz6hP6PA8B0W4udjwcUxAI) of the show Friends and is downloaded as a .CSV [file](https://github.com/shilpibhattacharyya/Friends_Analysis/tree/master/transcripts_friends) for each episode. The data is then preprossed.
